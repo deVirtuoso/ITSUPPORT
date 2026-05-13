@@ -625,6 +625,12 @@ code {
   }
 }
 
+@media (min-width: 1024px) {
+  .grid.cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border);
