@@ -146,8 +146,9 @@ code {
   width: 32px;
   height: 32px;
   border-radius: 9px;
-  background: linear-gradient(135deg, var(--accent), var(--blue));
   box-shadow: 0 0 24px var(--accent-glow);
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .nav {
@@ -358,7 +359,7 @@ code {
   font-size: var(--step-4);
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   margin: 0 0 1.25rem;
 }
 
@@ -522,7 +523,7 @@ code {
   font-family: var(--font-display);
   font-size: var(--step-3);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   margin: 0 0 1rem;
 }
 
@@ -658,7 +659,13 @@ code {
 
 @media (min-width: 900px) {
   .grid.pricing {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1180px) {
+  .grid.pricing {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -701,7 +708,7 @@ code {
   font-size: var(--step-3);
   font-weight: 700;
   margin: 0;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 .currency {
@@ -981,7 +988,7 @@ code {
   font-family: var(--font-display);
   font-size: var(--step-3);
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   margin: 0 0 0.5rem;
   line-height: 1.15;
 }

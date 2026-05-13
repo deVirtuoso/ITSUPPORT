@@ -1,6 +1,6 @@
 # Remote support software (cost-focused)
 
-This document summarizes **zero-software-cost** options for delivering **paid** remote IT support. It is for internal planning and customer-facing transparency—not legal advice. Always read each vendor’s **current terms of use** before using a tool commercially.
+This document summarizes **zero-software-cost** options for delivering **paid** NEXUSDESK 24/7 Online Computer and Website Support, including one-off sessions and the **Company Unlimited** subscription at **£2,000 per company per month**. It is for internal planning and customer-facing transparency—not legal advice. Always read each vendor’s **current terms of use** before using a tool commercially.
 
 ## Important distinction
 
@@ -13,12 +13,12 @@ This document summarizes **zero-software-cost** options for delivering **paid** 
 
 | Tool | Software cost | Best for | Commercial / paid-support notes |
 |------|---------------|----------|----------------------------------|
-| **Windows Quick Assist** | $0 | **Windows → Windows** remote help | Built into Windows 10/11; Microsoft-backed. Strong default for PC-heavy support. |
-| **Google Chrome Remote Desktop** | $0 | **Cross-platform** (Windows, macOS, Linux, ChromeOS) | Requires Google accounts and Chrome (or supported browser). Review Google’s terms for your use case. |
-| **RustDesk** | $0 (open source) | Full control, branding, audit posture | **Self-host** the ID / relay stack for a serious paid operation; public relay policies have changed over time—verify current docs. |
-| **MeshCentral** | $0 (open source) | Self-hosted remote management, agents, web portal | You run the server; more setup, high flexibility. |
-| **DWService** | $0 (open source) | Browser-based / agent options when self-hosted | Often self-hosted for privacy and reliability. |
-| **TeamViewer / AnyDesk (free tiers)** | $0 tier exists | Quick tests | **Risky for paid IT support** if the free tier is personal-only; use a proper commercial license or a different tool. |
+| **Windows Quick Assist** | £0 | **Windows → Windows** remote help | Built into Windows 10/11; Microsoft-backed. Strong default for PC-heavy support. |
+| **Google Chrome Remote Desktop** | £0 | **Cross-platform** (Windows, macOS, Linux, ChromeOS) | Requires Google accounts and Chrome (or supported browser). Review Google’s terms for your use case. |
+| **RustDesk** | £0 (open source) | Full control, branding, audit posture | **Self-host** the ID / relay stack for a serious paid operation; public relay policies have changed over time—verify current docs. |
+| **MeshCentral** | £0 (open source) | Self-hosted remote management, agents, web portal | You run the server; more setup, high flexibility. |
+| **DWService** | £0 (open source) | Browser-based / agent options when self-hosted | Often self-hosted for privacy and reliability. |
+| **TeamViewer / AnyDesk (free tiers)** | £0 tier exists | Quick tests | **Risky for paid IT support** if the free tier is personal-only; use a proper commercial license or a different tool. |
 
 ## Suggested stacks by scenario
 
@@ -35,15 +35,22 @@ This document summarizes **zero-software-cost** options for delivering **paid** 
 ### You want one platform under your control
 
 - Deploy **MeshCentral** or **RustDesk** (self-hosted).  
-- Software remains **$0**; you may still pay for **hosting** (VPS, domain, TLS)—or use a free-tier cloud account if that fits your risk tolerance.
+- Software remains **£0**; you may still pay for **hosting** (VPS, domain, TLS)—or use a free-tier cloud account if that fits your risk tolerance.
 
-## Related $0 or low-fixed-cost pieces
+## Related £0 or low-fixed-cost pieces
 
 | Piece | Role |
 |-------|------|
-| **Stripe** | Payments (per-transaction fees; no mandatory monthly for basic checkout / Payment Links). |
-| **GitHub Pages** (or similar static host) | Host this marketing site for **$0** on a public repo’s Pages URL or custom domain. |
+| **Stripe** | One-off payments, monthly subscriptions, invoices, receipts, customer portal, and fraud controls. |
+| **GitHub Pages** (or similar static host) | Host this marketing site for **£0** on a public repo’s Pages URL or custom domain. |
 | **Email** | Ticketing and receipts via a standard mailbox or provider free tier (within limits). |
+
+## Subscription operating notes
+
+- Company Unlimited is unlimited **online** support for one subscribed company and its authorized staff.
+- Keep remote tooling access tied to verified company contacts and domains.
+- Exclude custom development, full website builds, managed hosting, on-site visits, hardware repair, procurement, third-party fees, and abusive automated request volume unless separately contracted.
+- Track ticket volume and issue categories per company so pricing can be reviewed before renewals if support demand becomes project-level work.
 
 ## Security practices (brief)
 
